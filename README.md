@@ -22,7 +22,7 @@ The App Consists of 3 main modules.
 
 ### Dataset Snapshots
 
-![Alt text](Assets/DatasetSnapshots.jpg?raw=true "Title")
+![Alt text](Assets/DatasetSnapShots.jpg?raw=true "Title")
 
 ### Dataset Specifications
 
