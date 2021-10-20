@@ -52,34 +52,3 @@ class GUI:
             relx += x_spacing
 
         return buttons
-        
-##def p(args,**kwargs):
-##    #kwargs.update(dict(zip(args, kwargs)))
-##    print(kwargs)
-##    print(args)
-##    p2(**kwargs)
-##
-##def p2(*args):
-##    print(args)
-##
-##p('a',age='mahmoud')
-##
-##threshold = 0.95
-##
-##def p2():
-##    print(threshold)
-##
-##title = "Sign Language Recognition GUI"
-##size = "500x500"
-##
-##gui = GUI(title, size)
-##
-##buttons_num = 1
-##text = ['first', 'second', 'third']
-##
-##Labels, labels_entryboxes = gui.create_labels(1, ['first'], 'nw', 0, 0, create_entrybox_per_label=1)
-##
-##buttons = gui.create_buttons(buttons_num, text, 'nw', 0.45, 0, command=lambda: p(labels_entryboxes['first_entrybox']))
-##buttons2 = gui.create_buttons(buttons_num, ['print'], 'nw', 0, 0.1, command=p2, y_spacing=0.05)
-##
-##gui.root.mainloop()

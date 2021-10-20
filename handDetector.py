@@ -217,10 +217,7 @@ def pipe_cam(gui, vid_label):
             frame_video_stream(names, curr_char, prev_char, word, sentence, vid_label,
                                hands,  th_entrybox, cc_entrybox, ow_entrybox, cw_entrybox, sent_entrybox)
             gui.root.mainloop()
-                
-            
-        
-    cap.release()
+
 
 title = "Sign Language Recognition GUI"
 size = "1100x1100"
